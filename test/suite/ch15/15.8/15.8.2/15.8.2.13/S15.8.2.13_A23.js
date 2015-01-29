@@ -10,7 +10,7 @@
 
 // CHECK#1
 
-y = NaN;
+y = new Array();
 x = new Array();
 x[0] = -1.7976931348623157E308; //largest (by module) finite number
 x[1] = -Math.PI;
